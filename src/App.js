@@ -1,25 +1,42 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import { Routes, Route } from "react-router-dom";
+import { BalanceProvider } from './Context/BalanceContext';
+import { UsersProvider } from "./Context/UsersContext";
+
+import Home from './Pages/Home';
+import Register from './Pages/Register';
+import Deposit from "./Pages/Deposit";
+import Withdraw from "./Pages/Withdraw";
+import Alldata from "./Pages/Alldata";
+import AppNavbar from "./Components/Navbar";
+import Foot from "./Components/Foot";
+
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   return (
+    
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <UsersProvider>
+      <BalanceProvider>
+          <AppNavbar/>
+          <Routes>
+            <Route path="/" element={ <Home/> } />
+            <Route path="register" element={ <Register/> } />
+            <Route path="deposit" element={ <Deposit/> } />
+            <Route path="withdraw" element={ <Withdraw/> } />
+            <Route path="alldata" element={ <Alldata/> } />
+            <Route path='github' component={() => {
+              window.location.href = 'https://elena-malgicheva.github.io/';
+              return null;
+            }}/> 
+          </Routes>
+          <Foot />
+      </BalanceProvider>
+      </UsersProvider>
     </div>
-  );
+    
+  )
 }
 
 export default App;

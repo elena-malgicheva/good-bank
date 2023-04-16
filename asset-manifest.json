@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/good-bank/static/css/main.cd40cbe2.css",
+    "main.js": "/good-bank/static/js/main.25219aa4.js",
+    "static/media/back_transp.png": "/good-bank/static/media/back_transp.245f900bb5bda4c5aa3c.png",
+    "index.html": "/good-bank/index.html",
+    "main.cd40cbe2.css.map": "/good-bank/static/css/main.cd40cbe2.css.map",
+    "main.25219aa4.js.map": "/good-bank/static/js/main.25219aa4.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cd40cbe2.css",
+    "static/js/main.25219aa4.js"
+  ]
+}

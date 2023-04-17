@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/good-bank/welcome/static/css/main.9722bad3.css",
-    "main.js": "/good-bank/welcome/static/js/main.e3fbc127.js",
-    "static/media/back_transp.png": "/good-bank/welcome/static/media/back_transp.245f900bb5bda4c5aa3c.png",
-    "index.html": "/good-bank/welcome/index.html",
-    "main.9722bad3.css.map": "/good-bank/welcome/static/css/main.9722bad3.css.map",
-    "main.e3fbc127.js.map": "/good-bank/welcome/static/js/main.e3fbc127.js.map"
+    "main.css": "/Elena-MalgichevaBankingApplication/static/css/main.f63f427f.css",
+    "main.js": "/Elena-MalgichevaBankingApplication/static/js/main.7226be45.js",
+    "static/media/back_transp.png": "/Elena-MalgichevaBankingApplication/static/media/back_transp.245f900bb5bda4c5aa3c.png",
+    "index.html": "/Elena-MalgichevaBankingApplication/index.html",
+    "main.f63f427f.css.map": "/Elena-MalgichevaBankingApplication/static/css/main.f63f427f.css.map",
+    "main.7226be45.js.map": "/Elena-MalgichevaBankingApplication/static/js/main.7226be45.js.map"
   },
   "entrypoints": [
-    "static/css/main.9722bad3.css",
-    "static/js/main.e3fbc127.js"
+    "static/css/main.f63f427f.css",
+    "static/js/main.7226be45.js"
   ]
 }

@@ -1,10 +1,11 @@
-import React from "react";
+import { React } from "react";
 import { Formik, Form, ErrorMessage } from 'formik';
 import * as Yup from "yup";
 import { Input, Submit } from "./styles";
 import { RiUserAddFill } from 'react-icons/ri';
 
 import { useUsersDispatch } from '../Context/UsersContext';
+
 
 const validationSchema = Yup.object().shape({
   fullname: Yup.string()
@@ -28,7 +29,7 @@ function Register() {
     <div className="app-card w-50 p-5 m-3 create-color">
       <h1><RiUserAddFill/> Create Account</h1>
       <hr />
-    
+      
        <Formik
         initialValues={{ 
           validateOnMount: true,
@@ -59,6 +60,7 @@ function Register() {
           {({ isSubmitting, dirty }) => (
              
             <Form>
+            
               <Input
                 type="text"
                 name="fullname"

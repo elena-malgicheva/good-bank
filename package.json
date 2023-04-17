@@ -1,6 +1,6 @@
 {
-  "homepage": "https://elena-malgicheva.github.io/good-bank",
-  "name": "banking-app",
+  "homepage": "https://elena-malgicheva.github.io/Elena-MalgichevaBankingApplication/welcome",
+  "name": "good-bank",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
